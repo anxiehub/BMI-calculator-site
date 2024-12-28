@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="kbju.html" class="nav-link">Next</a>
+        </div>
+        <div class="language-selector">
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+        <h1 data-translate="bmi-calculator">BMI Calculator</h1>
+        <div class="input-section">
+            <label for="weight" data-translate="weight">Weight (kg):</label>
+            <input type="number" id="weight" required>
+            <label for="height" data-translate="height">Height (cm):</label>
+            <input type="number" id="height" required>
+            <button id="calculate-bmi-btn" data-translate="calculate-bmi">Calculate BMI</button>
+        </div>
+        <div class="result-section">
+            <h2 data-translate="bmi-result">Your BMI Result:</h2>
+            <p id="bmi-result"></p>
+        </div>
+        <footer>
+            <p>&copy; 2024-2025 <a href="https://github.com/anxiehub">anxiehub</a>. All rights reserved.</p>
+            <p></a>THERE MAY BE BUGS.</p>
+            <p></a>Contact me on dm tg: <a href="https://github.com/anxiehub">TG</a></p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
