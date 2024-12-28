@@ -1,6 +1,6 @@
 body {
     font-family: 'Tomorrow', sans-serif;
-    background-image: url('../resources/background.gif');
+    background-image: url('background.gif');
     background-size: cover;
     display: flex;
     justify-content: center;
